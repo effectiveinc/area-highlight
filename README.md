@@ -1,2 +1,2 @@
-area-highlighta
+area-highlight
 ==============
