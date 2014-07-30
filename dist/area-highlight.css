@@ -1,0 +1,50 @@
+.ahl {
+  position: absolute;
+  visibility: visible;
+  opacity: 1;
+}
+.ahl-fadeout {
+  transition: opacity 1.25s ease-in-out;
+  opacity: 0 !important;
+}
+.ahl-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+.ahl a {
+  position: absolute;
+  display: block;
+  background: #FF00FF; opacity: 0.6;
+}
+.ahl-ie a {
+  filter: alpha(opacity=30);
+}
+.ahl .ahl-light-poly svg {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.ahl .ahl-light-poly svg polygon {
+  fill:#FF00FF;
+  stroke-width:0;
+}
+.ahl-hint {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  font-size: 18px;
+  width: 380px;
+  text-align: center;
+  margin-left: -190px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  color: black;
+  font-family: sans-serif;
+  background: #fff;
+  padding: 10px 0;
+  border-radius: 15px;
+  border: 5px #aaa solid;
+}
+.ahl-hint span {
+  color: #FF00FF;
+}
