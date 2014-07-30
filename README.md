@@ -9,5 +9,7 @@ Place a folder called “area-highlight” into the same location as your html f
 
 Place these two lines of code into each of your HTML files.
 
-```<link rel="stylesheet" type="text/css" href="area-highlight/area-highlight.css">```
-```<script src="area-highlight/area-highlight.js" type="text/javascript"></script>```
+``` html
+<link rel="stylesheet" type="text/css" href="area-highlight/area-highlight.css">
+<script src="area-highlight/area-highlight.js" type="text/javascript"></script>
+```
